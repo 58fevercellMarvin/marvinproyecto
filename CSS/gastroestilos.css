@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../IMG/Fondogastro.jpeg') center/cover no-repeat;
+    height: 100vh;
+    margin: 0;
+    color: black; 
+    text-align: center;
+    font-family: Arial, sans-serif; 
+}
+
+h1 {
+    color: white; 
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.2em;
+    color: black; 
+}
+
+img {
+    width: 300px;
+    margin: 20px auto;
+    display: block;
+}
+
+.boton-volver {
+    color: black;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;

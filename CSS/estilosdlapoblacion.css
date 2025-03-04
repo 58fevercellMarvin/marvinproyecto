@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../IMG/jalapaPo1.jpg') center/cover no-repeat;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+
+
+.texto {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: left;
+    max-width: 800px;
+}
+
+.imagen-centro {
+    display: block;
+    margin: 20px auto;
+    width: 30%; 
+    height: auto;
+}
+
+.boton-volver {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}

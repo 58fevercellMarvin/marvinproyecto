@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../IMG/Fondoculturados.jpg') center/cover no-repeat;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 1.1em;
+    position: relative; 
+}
+
+h1 {
+    color: white;  û
+    font-size: 2.5em;
+    margin: 20px 0;
+    padding: 10px;
+    border: 4px dotted white;
+    display: inline-block;
+}
+
+.texto-borde {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.boton-volver {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.imagen-centro {
+    background: url('../IMG/Cul1.jpg')
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;  
+    height: auto;
+}
